@@ -18,7 +18,7 @@ datasets = 'datasets'
 engine = pyttsx3.init()
 
 # Part 1: Create fisherRecognizer
-print('Recognizing Face Please Be in sufficient Lights...')
+print('Recognizing Face Please Be In Sufficient Lights...')
 
 # Create a list of images and a list of corresponding names
 (images, lables, names, id) = ([], [], {}, 0)
