@@ -1,0 +1,2 @@
+# FaceDetection 
+EYE FOR BLIND system is proposed for any kind of visual impaired persons: blind, partially sighted, and people with progressive loss of vision. This system can help the visually impaired individuals to travel through familiar or unfamiliar corridor by using the Kinect sensor that mounted on the head or holding into hand. This chapter consists of four parts. The four parts can be divided into problem statements, project introduction, previous related work, and conclusion.
