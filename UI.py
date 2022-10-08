@@ -42,3 +42,6 @@ L1 = Label(TAB1, text=" Phone Number")
 L1.pack( side = LEFT)
 E2 = Entry(TAB1,textvariable=ment, bd =5)
 E2.pack(side = LEFT)
+
+
+window.mainloop()
