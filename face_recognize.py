@@ -7,7 +7,7 @@ from gtts import gTTS
 
 
 def SayName(a):
-    engine.say("Hello "+str(a))
+    engine.say("Hello "+ str(a))
     engine.runAndWait()
 
 
