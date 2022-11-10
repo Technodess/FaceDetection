@@ -7,7 +7,7 @@ from gtts import gTTS
 
 
 def SayName(a):
-    engine.say("Hello "+ str(a))
+    engine.say("Hello " + str(a))
     engine.runAndWait()
 
 
@@ -18,6 +18,7 @@ datasets = 'datasets'
 engine = pyttsx3.init()
 
 # Part 1: Create fisherRecognizer
+# Create fisherRecognizer
 print('Recognizing Face Please Be In Sufficient Lights.......')
 
 # Create a list of images and a list of corresponding names
@@ -65,14 +66,14 @@ while True:
             Person_name1 = names[prediction[0]]
             # if value:
             SayName(Person_name1)
-            #	print(names[prediction[0]])
-            #	value = !value
+            # print(names[prediction[0]])
+            # value = !value
         else:
             cv2.putText(im, 'not recognized', (x-10, y-10),
                         cv2.FONT_HERSHEY_PLAIN, 1, (0, 255, 0))
 
     cv2.imshow('OpenCV', im)
-#	if(count==1):
+# if(count==1):
 
     key = cv2.waitKey(10)
     if key == 27:
