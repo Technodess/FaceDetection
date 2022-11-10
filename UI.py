@@ -33,15 +33,7 @@ b1 = Button(TAB1,text = "CAPTURE FACE",command = func1,activeforeground = "red",
 
 b2 = Button(TAB1,text = "FACE DETECT",command = func,activeforeground = "red",activebackground = "pink",pady=10).pack() 
 
-L1 = Label(TAB1, text=" Name")
-L1.pack( side = LEFT)
-E1 = Entry(TAB1, bd =5)
-E1.pack(side = LEFT)
 
-L1 = Label(TAB1, text=" Phone Number")
-L1.pack( side = LEFT)
-E2 = Entry(TAB1,textvariable=ment, bd =5)
-E2.pack(side = LEFT)
 
 
 window.mainloop()
