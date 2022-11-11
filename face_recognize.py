@@ -19,7 +19,7 @@ engine = pyttsx3.init()
 
 # Part 1: Create fisherRecognizer
 # Create fisherRecognizer
-print('Recognizing Face Please Be In Sufficient Lights.......')
+print('Recognizing Face please Be In Sufficient Lights.......')
 
 # Create a list of images and a list of corresponding names
 (images, lables, names, id) = ([], [], {}, 0)
@@ -40,6 +40,7 @@ for (subdirs, dirs, files) in os.walk(datasets):
 
 # OpenCV trains a model from the images
 # NOTE FOR OpenCV2: remove '.face'
+
 model = cv2.face.LBPHFaceRecognizer_create()
 model.train(images, lables)
 # engine.say(names)
@@ -67,6 +68,7 @@ while True:
             # if value:
             SayName(Person_name1)
             # print(names[prediction[0]])
+            # value = !value# value = !value
             # value = !value
         else:
             cv2.putText(im, 'not recognized', (x-10, y-10),
