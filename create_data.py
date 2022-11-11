@@ -29,7 +29,7 @@ if not os.path.isdir(path):
 face_cascade = cv2.CascadeClassifier(haar_file)
 webcam = cv2.VideoCapture(0)
 
-# The program loops until it has 30 images of the face.
+# The programme loops until it has 30 images of the face.
 count = 1
 while count < 50:
     (_, im) = webcam.read()
